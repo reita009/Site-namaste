@@ -1,0 +1,31 @@
+
+header{
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container{
+  width: 60%;
+  display: flex;
+  line-height: 150px;
+  justify-content: space-between;
+}
+
+header .logo img{
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+}
+.menu ul{
+  display: flex;
+}
+.menu ul a{
+  text-decoration: none;
+  color: black;
+}
+.menu ul li{
+  list-style: none;
+  margin-right: 20px;
+  font-size: 25px;
+}
