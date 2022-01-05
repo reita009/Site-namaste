@@ -1,0 +1,78 @@
+section{
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container{
+  width: 60%;
+  display: flex;
+  line-height: 150px;
+  justify-content: space-between;
+}
+.contato {
+  width: 50%;
+  height: 500px;
+}
+.slider{
+  width: 50%;
+  height: 500px;
+}
+.contato{
+  padding: 45px;
+}
+.presentation{
+  width: 90%;
+  background-color: black;
+  margin-left: auto ;
+  margin-right: auto;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  height: 200px;
+
+}
+  .text-presentation{
+    width: 100%;
+    height: 100%;
+  }
+.presentation p{
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 200px;
+  font-size: 20px;
+
+}
+.contato .button-contato{
+  width: 100%;
+}
+.contato .button-contato button{
+  position: relative;
+  left: calc(50% - 90px);
+  padding: 15px;
+  width: 200px;
+  font-size: 30px;
+  background-color: #eb2f06;
+  border:none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.contato .button-contato button:hover{
+  background-color: #a72204;
+  color: white;
+}
+.slider {
+
+  box-shadow: 2px 2px 4px black;
+  height: 500px;
+  width: 500px;
+
+}
+
+ img{
+  object-fit: cover;
+  height: 500px;
+  width: 500px;
+
+}
